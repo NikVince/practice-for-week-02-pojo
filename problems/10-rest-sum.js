@@ -11,6 +11,13 @@ restSum(0); // => 0
 
 function restSum(...otherNums) {
   // Your code here
+  let total = 0;
+
+  for (let num of otherNums) {
+    total += num;
+  }
+
+  return total;
 }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
